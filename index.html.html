@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paul Stevanus | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Animate on Scroll -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+</head>
+<body class="text-gray-800 scroll-smooth">
+  <!-- HEADER -->
+  <header class="fixed w-full bg-white/80 backdrop-blur shadow z-50 transition duration-300" id="header">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <h1 class="text-2xl font-bold text-blue-600">Brooklyn</h1>
+      <nav class="hidden md:flex space-x-6">
+        <a href="#home" class="hover:text-blue-600">Home</a>
+        <a href="#about" class="hover:text-blue-600">About</a>
+        <a href="#Awards" class="hover:text-blue-600">Awards</a>
+        <a href="#Client Support" class="hover:text-blue-600">Client Support</a>
+        <a href="#Goals" class="hover:text-blue-600">My Goals</a>
+        <a href="#services" class="hover:text-blue-600">Services</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </nav>
+      <button class="md:hidden text-blue-600" id="menuBtn">☰</button>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div id="mobileMenu" class="hidden fixed inset-0 bg-white/95 z-40 flex flex-col items-center justify-center space-y-6 text-xl">
+    <a href="#home" class="hover:text-blue-600">Home</a>
+    <a href="#about" class="hover:text-blue-600">About</a>
+    <a href="#process" class="hover:text-blue-600">Process</a>
+    <a href="#portfolio" class="hover:text-blue-600">Portfolio</a>
+    <a href="#blog" class="hover:text-blue-600">Blog</a>
+    <a href="#services" class="hover:text-blue-600">Services</a>
+    <a href="#contact" class="hover:text-blue-600">Contact</a>
+  </div>
+
+  <!-- HERO -->
+  <section id="home" class="bg-gradient-to-b from-blue-50 to-white pt-32 pb-20">
+    <div class="container mx-auto flex flex-col md:flex-row items-center gap-10 px-6" data-aos="fade-up">
+      <div class="md:w-1/2 text-center md:text-left">
+        <h2 class="text-3xl font-medium">Hello, I’m</h2>
+        <h1 class="text-5xl font-bold text-blue-600 mt-2">Paul Stevanus</h1>
+        <p class="mt-4 text-gray-600 leading-relaxed">
+          Paul Stevefanus adalah seorang praktisi di bidang keuangan. Paul menyelesaikan gelar sarjananya di Universitas Surabaya Fakultas Ekonomi jurusan Akuntansi.
+
+Paul memulai bisnisnya di bidang keuangan sejak tahun 2005 dengan bergabung di salah satu jasa keuangan dari Amerika. Untuk menunjang bisnisnya, Paul mengambil pendidikan di Universitas Pelita Harapan Surabaya untuk mendapatkan specialist di bidang keuangan dan berhasil menyandang gelar CFP (Certified Financial Planner) yang bertaraf international. Agar dapat melayani nasabah dengan lebih baik berbagai macam seminar dan kelas specialist diambil hingga Paul dapat menyandang gelar QWP (Qualified Wealth Planner) dan AWP (Associate Wealth Planner)
+        </p>
+        <div class="mt-6 flex gap-4 justify-center md:justify-start">
+          <a href="#contact" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 shadow-lg transition">More!</a>
+          <a href="#portfolio" class="px-6 py-3 border border-blue-600 text-blue-600 rounded-lg hover:bg-blue-50 transition">My Awards!</a>
+        </div>
+        <div class="flex gap-8 mt-10 text-center md:text-left">
+          <div>
+            <p class="text-3xl font-bold text-blue-600">15 Y.</p>
+            <p class="text-gray-500 text-sm">Experience</p>
+          </div>
+          <div>
+            <p class="text-3xl font-bold text-blue-600">250+</p>
+            <p class="text-gray-500 text-sm">Projects</p>
+          </div>
+          <div>
+            <p class="text-3xl font-bold text-blue-600">58</p>
+            <p class="text-gray-500 text-sm">Happy Clients</p>
+          </div>
+        </div>
+      </div>
+      <div class="md:w-1/2 flex justify-center" data-aos="zoom-in">
+        <img src="foto pak paul.png" alt="Paul Stevanus" class="rounded-2xl shadow-2xl">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="bg-gray-50 py-20">
+    <div class="container mx-auto grid md:grid-cols-2 gap-10 px-6 items-center" data-aos="fade-up">
+      <div>
+        <h2 class="text-4xl font-bold mb-4">I’m a Professional UX Designer</h2>
+        <p class="text-gray-600 mb-4 leading-relaxed">I design and develop services for customers specializing in stylish, modern websites, web services, and online stores. My passion is creating digital user experiences that are both functional and aesthetically pleasing.</p>
+        <div class="mt-6 flex gap-4">
+          <a href="#portfolio" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 shadow-lg transition">My Projects</a>
+          <a href="#" class="px-6 py-3 border border-blue-600 text-blue-600 rounded-lg hover:bg-blue-50 transition">Download CV</a>
+        </div>
+      </div>
+      <div class="grid grid-cols-2 gap-6">
+        <div class="p-6 bg-white rounded-lg shadow hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold">User Experience (UX)</h3>
+          <p class="text-gray-600 text-sm mt-2">Seamless and intuitive user journeys.</p>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold">User Interface (UI)</h3>
+          <p class="text-gray-600 text-sm mt-2">Beautiful, functional, and accessible interfaces.</p>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold">Web Development</h3>
+          <p class="text-gray-600 text-sm mt-2">High-quality, scalable web apps with clean code.</p>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold">Branding</h3>
+          <p class="text-gray-600 text-sm mt-2">Strong and consistent brand identities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Awards -->
+  <section id="Awards" class="py-20 bg-white">
+    <div class="container mx-auto text-center px-6" data-aos="fade-up">
+      <h2 class="text-4xl font-bold mb-6">My Awards</h2>
+      <p class="text-gray-600 max-w-2xl mx-auto mb-10">I follow a streamlined and effective process to ensure quality results for every project.</p>
+      <div class="grid md:grid-cols-4 gap-8">
+        <div class="p-6 bg-blue-50 rounded-lg shadow hover:scale-105 transition" data-aos="fade-right">
+          <span class="text-4xl font-bold text-blue-600">1</span>
+          <h3 class="text-xl font-semibold mt-2"></h3>
+          <p class="text-gray-600 text-sm mt-2"> <img src="" alt=""></p>
+        </div>
+        <div class="p-6 bg-blue-50 rounded-lg shadow hover:scale-105 transition" data-aos="fade-up">
+          <span class="text-4xl font-bold text-blue-600">2</span>
+          <h3 class="text-xl font-semibold mt-2">Analyze</h3>
+          <p class="text-gray-600 text-sm mt-2">Strategizing design and technical approaches.</p>
+        </div>
+        <div class="p-6 bg-blue-50 rounded-lg shadow hover:scale-105 transition" data-aos="fade-up">
+          <span class="text-4xl font-bold text-blue-600">3</span>
+          <h3 class="text-xl font-semibold mt-2">Design</h3>
+          <p class="text-gray-600 text-sm mt-2">Crafting intuitive and beautiful user interfaces.</p>
+        </div>
+        <div class="p-6 bg-blue-50 rounded-lg shadow hover:scale-105 transition" data-aos="fade-left">
+          <span class="text-4xl font-bold text-blue-600">4</span>
+          <h3 class="text-xl font-semibold mt-2">Launch</h3>
+          <p class="text-gray-600 text-sm mt-2">Delivering polished, high-performance products.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Client Support -->
+  <section id="Client Support" class="bg-gray-50 py-20">
+    <div class="container mx-auto grid md:grid-cols-2 gap-10 px-6 items-center" data-aos="fade-up">
+      <div>
+        <h2 class="text-4xl font-bold mb-4">Client Support</h2>
+        <p class="text-gray-600 mb-4 leading-relaxed">I design and develop services for customers specializing in stylish, modern websites, web services, and online stores. My passion is creating digital user experiences that are both functional and aesthetically pleasing.</p>
+        <div class="mt-6 flex gap-4">
+          <a href="#portfolio" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 shadow-lg transition">My Projects</a>
+          <a href="#" class="px-6 py-3 border border-blue-600 text-blue-600 rounded-lg hover:bg-blue-50 transition">Download CV</a>
+        </div>
+      </div>
+      <div class="grid grid-cols-2 gap-6">
+        <div class="p-6 bg-white rounded-lg shadow hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold">User Experience (UX)</h3>
+          <p class="text-gray-600 text-sm mt-2">Seamless and intuitive user journeys.</p>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold">User Interface (UI)</h3>
+          <p class="text-gray-600 text-sm mt-2">Beautiful, functional, and accessible interfaces.</p>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold">Web Development</h3>
+          <p class="text-gray-600 text-sm mt-2">High-quality, scalable web apps with clean code.</p>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold">Branding</h3>
+          <p class="text-gray-600 text-sm mt-2">Strong and consistent brand identities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Goals -->
+  <section id="Goals" class="py-20 bg-white">
+    <div class="container mx-auto text-center px-6" data-aos="fade-up">
+      <h2 class="text-4xl font-bold mb-6">What we can help you?</h2>
+      <p class="text-gray-600 max-w-2xl mx-auto mb-10">I follow a streamlined and effective process to ensure quality results for every project.</p>
+      <div class="grid md:grid-cols-4 gap-8">
+        <div class="p-6 bg-blue-50 rounded-lg shadow hover:scale-105 transition" data-aos="fade-right">
+          <span class="text-4xl font-bold text-blue-600">1</span>
+          <h3 class="text-xl font-semibold mt-2">Whealt Protection</h3>
+          <p class="text-gray-600 text-sm mt-2"> Fundamental yang paling utama dalam financial growth adalah melindungi kekayaan.
+            Kekayaan Anda harus tetap aman dari bencana alam, pemborosan, kecerobohan, ketamakan, sakit, kematian, kecelakaan dan lain lain.</p> <br> <br> Mari kita diskusikan bersama.
+        </div>
+        <div class="p-6 bg-blue-50 rounded-lg shadow hover:scale-105 transition" data-aos="fade-up">
+          <span class="text-4xl font-bold text-blue-600">2</span>
+          <h3 class="text-xl font-semibold mt-2">Wealth Accumulation</h3>
+          <p class="text-gray-600 text-sm mt-2">Sebagai seorang profesional dan pemilik bisnis, Anda sudah sangat hebat dalam mengakumulasikan kekayaan. Namun faktor keamanan dalam berinvestasi sangat penting. <br></p> <br> <br> <br> <br> Mari kita diskusikan bersama
+        </div>
+        <div class="p-6 bg-blue-50 rounded-lg shadow hover:scale-105 transition" data-aos="fade-up">
+          <span class="text-4xl font-bold text-blue-600">3</span>
+          <h3 class="text-xl font-semibold mt-2">Wealth Distribution</h3>
+          <p class="text-gray-600 text-sm mt-2">Anda sudah mencapai di level dimana kekayaan Anda sudah bertumbuh dengan sangat baik.
+Akan tetapi Anda membutuhkan strategi agar kekayaan Anda tetap dapat Anda nikmati di masa pensiun dan membaginya secara aman tanpa mengurangi kekayaan Anda pada generasi selanjutnya.</p>
+        </div>
+        <div class="p-6 bg-blue-50 rounded-lg shadow hover:scale-105 transition" data-aos="fade-left">
+          <span class="text-4xl font-bold text-blue-600">4</span>
+          <h3 class="text-xl font-semibold mt-2">Launch</h3>
+          <p class="text-gray-600 text-sm mt-2">Delivering polished, high-performance products.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO, BLOG, TESTIMONIAL, CONTACT, FOOTER same as before but with aos="fade-up" and hover effects -->
+
+  <!-- FOOTER -->
+  <footer class="bg-gradient-to-r from-blue-50 to-white border-t py-6 text-center text-gray-500">
+    <p>© 2025 Brooklyn Gilbert. All rights reserved.</p>
+  </footer>
+
+  <!-- AOS Library -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init({ duration: 800, once: true });</script>
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    menuBtn.addEventListener('click', ()=> mobileMenu.classList.toggle('hidden'));
+  </script>
+</body>
+</html>
